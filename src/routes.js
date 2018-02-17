@@ -8,7 +8,7 @@ import Student from './components/Student/Student';
 export default (
   <Switch>
     <Route component={ Home } exact path="/" />
-    <Route component={ About } exact path="/about" />
+    <Route component={ About } path="/about" />
     <Route component={ ClassList } path ="/classlist/:class" />
     <Route component={ Student } path="/student/:id" />
   </Switch>
